@@ -7,14 +7,14 @@ units= {
 		task_force = {				
 			name = "Hochseeflotte"
 			location = 241  # Wilhemshaven
-			ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
-			ship = { name = "Admiral Scheer" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
-			ship = { name = "Nürnberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
-			ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
-			ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
-			ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
-			ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
-			ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+			ship = { name = "德意志" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "德意志级" } } }	
+			ship = { name = "舍尔海军上将" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "德意志级" } } }
+			ship = { name = "纽伦堡" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
+			ship = { name = "莱比锡" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
+			ship = { name = "科尼斯堡" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "科尼斯堡级" } } }			
+			ship = { name = "卡尔斯鲁厄" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "科尼斯堡级" } } }	
+			ship = { name = "科隆" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "科尼斯堡级" } } }			
+			ship = { name = "埃姆登" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
 			# 1. Torpedobootflottille
 			ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 			ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
@@ -24,8 +24,8 @@ units= {
 		task_force = {
 			name = "Ostseeflotte"
 			location = 6332  # Konigsberg
-			ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-			ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }		
+			ship = { name = "石勒苏益格-荷尔斯泰因" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+			ship = { name = "西里西亚" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }		
 			# 2. Torpedobootflottille
 			ship = { name = "Möwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 			ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
@@ -141,7 +141,7 @@ instant_effect = {
 		equipment = {
 			type = heavy_cruiser_1
 			creator = "GER"
-			version_name = "Deutschland Class"
+			version_name = "德意志级"
 		}
 		requested_factories = 1
 		progress = 0.95
